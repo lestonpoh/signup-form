@@ -1,0 +1,29 @@
+:root{
+    font-family: 'Roboto','Arial';
+    
+    
+}
+
+body{
+    display:flex;
+    margin:0;
+}
+
+.left-container{
+    flex:2;
+    height:100vh;
+    overflow:hidden
+}
+
+.left-container img{
+    height:100vh;
+    transform: translate(-50%, 0);
+
+    
+}
+
+.right-container{
+    border: 1px solid black;
+    flex:3;
+
+}
