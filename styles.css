@@ -56,7 +56,7 @@ body{
 }
 
 .container-1{
-    padding:20vh 2vh 0 2vh;
+    padding:20vh 2rem 0 2rem;
     position: relative;
     font-size: 1.5rem;
     font-weight: bold;
@@ -65,16 +65,43 @@ body{
 
 
 .container-2{
-    /* height:20vh; */
-    padding:5px;
-    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
+    padding:0rem 2rem;
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);<label for="firstname">…</label>
   
 
 }
 
+.container-2 p{
+    font-size: 1.5rem;
+    font-weight: bold;
 
+}
+
+form{
+    margin-bottom:1.5rem
+}
+
+.input-row{
+    display:flex
+}
+
+
+
+label,input{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    margin:2px 0 10px 0    
+    
+}
+
+.group{
+    flex:1;
+    margin-right:4rem;
+    row-gap: 12rem;
+    max-width: 25rem;
+}
 
 .container-3{
-    /* height:30vh; */
     background-color: rgb(241, 241, 241);
 }
