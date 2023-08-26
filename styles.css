@@ -153,6 +153,9 @@ button[type="submit"]:active{
 }
 
 .container-3 a:hover{
-    
     cursor: pointer;
+}
+
+.container-3 a:active{
+    font-size:0.98rem
 }
